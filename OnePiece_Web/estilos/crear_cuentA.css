@@ -1,0 +1,252 @@
+body,
+ul {
+    margin: 0;
+    /*Barra de Navegacion superior */
+}
+
+.header {
+    background-color: #527ED7;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    max-width: 100px;
+    background-color: #527ED7;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links a {
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: black;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/*Banner*/
+.background {
+
+    background: linear-gradient(#527ED7, #fff);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1px;
+    padding-bottom: 200px;
+    height: 100px;
+    margin-bottom: 60px;
+}
+
+
+.background h2 {
+    margin-top: 100px;
+    font-size: 60px;
+    color: #fff;
+}
+
+.background div {
+
+    margin-top: 50px;
+    font-size: 45px;
+    color: #527ED7;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.banner h2 {
+    margin-bottom: 60px;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+h2 {
+
+    text-align: center;
+    text-decoration: wavy;
+    font-size: xx-large;
+}
+
+.CreaCuenta{
+
+text-align: center;
+color: #EBD348;
+margin-bottom: 40px;
+
+}
+
+
+
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #527ED7;
+    box-shadow: 0 0 5px #527ED7;
+}
+
+/* Estilos del botón de envío */
+button {
+    background-color: #527ED7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #3266B6;
+    transform: scale(1.1);
+}
+
+
+a {
+    color: #527ED7;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #3266B6;
+}
+
+@keyframes inputFocus {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    animation: inputFocus 0.3s ease;
+}
+
+footer {
+    background: linear-gradient(#fff, 25%, #527ED7); ;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 150px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+i {
+    margin-right: 5px;
+}

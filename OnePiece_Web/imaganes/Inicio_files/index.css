@@ -1,0 +1,212 @@
+body,ul{
+    margin:  0;
+     /*Barra de Navegacion superior */
+    }
+    .header {
+        background-color:#527ED7 ;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .logo img {
+        max-width: 100px;
+        background-color: #527ED7 ;
+    }
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+    }
+    
+    .nav-links a {
+        margin-right: 20px; 
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease; 
+    }
+    
+    .nav-links a:hover {
+        color: black; 
+    }
+    
+    .btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 20px; 
+    transition: transform 0.3s ease;
+    }
+    
+    .btn:hover {
+        transform: scale(1.1);
+    }
+    
+    /*Banner*/
+    .background {
+
+        background: linear-gradient(#527ED7, #fff);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding: 1px;
+        padding-bottom: 200px;
+        height: 100px;
+    }
+    
+    
+    .background h2 {
+        margin-top: 100px;
+        font-size: 60px;
+        color: #fff;
+    }
+
+    .background div{
+        
+        margin-top: 50px;
+        font-size: 45px;
+        color: #527ED7 ;
+        justify-content: center;
+        display: flex;
+        
+    }
+
+.banner h2 {
+    margin-bottom: 60px;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    }
+
+
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+h2{
+
+    text-align: center;
+    text-decoration: wavy;
+    font-size: xx-large;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1vh;
+}
+
+.container hr {
+    width: 25%;
+    padding: 0px 38px 0px 38px;
+    border: 50px;
+    border-top: 1px solid #527ED7 ;
+}
+
+.container  p {
+    color: #527ED7 ;
+    text-align: center; 
+    font-size: 40px;
+
+}
+
+h3{
+margin-top: -20px;
+text-align: center;
+font-size: 22px;
+font-weight: 400;
+font-style: oblique;
+}
+
+/*Productos */
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 23%;
+    background-color: transparent;
+}
+
+
+.product img {
+    width: 100%;
+    cursor: pointer;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.product-price {
+    font-weight: bold;
+}
+
+/*Footers */
+footer {
+    background:  #527ED7 ;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+i {
+    margin-right: 5px;
+}
